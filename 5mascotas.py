@@ -4,4 +4,4 @@ if mascota == "perro":
 elif mascota == "gato":
     print("7 vidas")
 else:
-    print("bhsdzjn")
+    print("solla")
