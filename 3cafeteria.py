@@ -4,14 +4,14 @@ jugo=5000
 pedido=int(input("1. cafe, 2. te, 3. jugo"))
 if pedido == 1:
     cant=int(input("cuantos cafe quiere: "))
-    total_cafe=cant*cafe
-    print("total de su compra es: ", total_cafe)
+    total=cant*cafe
+    print("total de su compra es: ", total)
 elif pedido == 2:
     cant=int(input("cuantos te quiere: "))
-    total_te=cant*te
-    print("el total de su compra es: ", total_te)
+    total=cant*te
+    print("el total de su compra es: ", total)
 else:
     cant=int(input("cuantos jugos quiere: "))
-    total_jugo=cant*jugo
-    print("el total de su compra es: ", total_jugo)
+    total=cant*jugo
+    print("el total de su compra es: ", total)
     
